@@ -1,0 +1,121 @@
+
+.Headerclass-Header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.Headerclass-Title {
+  margin: 0;
+
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.Headerclass-Login {
+  display: flex;
+  align-items: center;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  padding: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 15px;
+  background-color: rgb(223, 225, 226);
+}
+
+.Mainclass-Main {
+  display: flex;
+}
+
+.Mainclass-Nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+  /*width: 40px */
+}
+
+.Mainclass-Nav-Item {
+  display: flex;
+  align-items: center;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  padding: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+  background-color: rgb(223, 225, 226);
+}
+
+.Mainclass-Desc {
+  flex: 1;
+  background-color: rgb(198, 198, 197);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.Footerclass-Footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footerclass-Item {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.centered-block {
+  text-align: left;
+  background-color: rgb(198, 198, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+}
+  
+.centered-text {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+}
+
+.lower-block {
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  bottom: 2%;
+
+  /* width: 96%; */
+}
+
+.review {
+  text-align: center;
+  background-color: rgb(200, 223, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  border: 2px solid #9a9ec7;
+  
+  border-radius: 20px;
+}
+
+#ratingsBoard {
+  display: horizontal;
+  align-items: center; 
+  justify-content: center;
+  gap: 10px;
+}

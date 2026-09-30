@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>  
+
+		<title>
+			Really cool website
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="./style.css">
+	</head>
+
+	<body>
+		<div class="centered-text">
+			<h2>
+				<a href="/">Cool fucking website </a>
+			</h2>
+		</div>
+		<hr>
+
+		<br>
+		<div class="centered-text">
+			<form method="post" action="/api/reviews" id="reviewForm">
+				<div>
+					<label for="rating">Rate this website!</label>
+				</div>
+
+				<div>
+					<input required
+					type="number"
+					id="rating"
+					name="rating"
+					placeholder="1 - 5"
+					min="1"
+					max="5"
+					>
+
+					<input required
+					type="string"
+					id="desc"
+					name="desc"
+					placeholder="Description"
+					>
+				</div>
+
+				<div>
+					<button type="submit"> submit </button>
+				</div>
+			</form>
+		</div>
+
+		<div id="ratingsBoard">
+		</div>
+
+		<script src="scripts/postReview.js">
+		</script>
+
+		<script src="scripts/loadReviews.js">
+		</script>
+
+	</body>
+
+</html>
